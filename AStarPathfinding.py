@@ -3,7 +3,7 @@ import math
 import pygame
 #Heuristics constant that determines nature of pathfinding
 #Decides how much weight to give to f_cost versues g_cost
-h_const = 0.01
+h_const = 1
 
 def reconstruct_path(came_from, end)->list:
     """
